@@ -1,0 +1,24 @@
+{
+    "name": "CraftingTest",
+    "rootNamespace": "",
+    "references": [
+        "GUID:366e9810bafa2464895a6340ffc50d78",
+        "GUID:3c5d89e141c14530befe971898e4f68b",
+        "GUID:563cadb801ab43b2a0cac77f70b1c177",
+        "GUID:9a0c8499cc4242cd80bbdb7a9393a200",
+        "GUID:1e1a2f721c873ea498d72d10bc80c25e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
