@@ -8,6 +8,8 @@ namespace Sample
     public sealed class Item
     {
         public string Name => this.name;
+        //todo расшарил флаги
+        public ItemFlags Flags => flags;
 
         [SerializeField]
         private string name;
@@ -58,7 +60,7 @@ namespace Sample
                 components[i] = component;
             }
             
-            return new Item(this.name, this.flags, components);
+            return new Item(this.name, this.Flags, components);
         }
     }
 }

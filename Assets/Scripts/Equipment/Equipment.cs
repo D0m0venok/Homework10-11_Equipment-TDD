@@ -38,6 +38,9 @@ namespace Equipment
         }
         public void SetItem(Item item)
         {
+            if(!item.Flags.HasFlag(ItemFlags.EQUPPABLE))
+                return;
+            
             var type = item.GetComponent<EquipTypeComponent>().Type;
             if(TryGetItem(type, out var result))
                 OnItemRemoved?.Invoke(result);
